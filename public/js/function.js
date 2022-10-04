@@ -1,5 +1,5 @@
 const strictEquals = (numberOne, numberTwo) => {
-  if (isNaN(numberOne) && isNaN(numberOne)) {
+  if (Number.isNaN(numberOne) && Number.isNaN(numberTwo)) {
     return false;
   } else if (Object.is(numberOne, numberTwo)) {
     return true;
